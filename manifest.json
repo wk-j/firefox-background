@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Background",
+    "version": "0.1",
+    "description": "Custom background image",
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://github.com/*"
+            ],
+            "js": [
+                "background.js"
+            ]
+        }
+    ],
+    "applications": {
+        "gecko": {
+            "id": "background@jwwwwwwwww.com"
+        }
+    }
+}
