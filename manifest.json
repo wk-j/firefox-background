@@ -20,5 +20,13 @@
         "gecko": {
             "id": "background@jwwwwwwwww.com"
         }
-    }
+    },
+    "web_accessible_resources": [
+        "images/jw1.jpg",
+        "images/jw2.jpg",
+        "images/jw3.jpg",
+        "images/jw4.jpg",
+        "images/bg3.jpg",
+        "images/cm1.jpg"
+    ]
 }
